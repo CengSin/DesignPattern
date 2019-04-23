@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93625ca2-3062-4257-9539-66212f2178bb" name="Default Changelist" comment="" />
+    <list default="true" id="93625ca2-3062-4257-9539-66212f2178bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,11 +16,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="506">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1334">
+                <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="46">
+                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -30,6 +58,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -46,6 +77,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/Calculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/calculator1.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/encapsulation/Operator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -68,6 +101,7 @@
     <option name="width" value="985" />
     <option name="height" value="1095" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -116,38 +150,6 @@
               <item name="blank" type="462c0819:PsiDirectoryNode" />
               <item name="factory_pattern" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="my_design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blank" type="462c0819:PsiDirectoryNode" />
-              <item name="factory_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blank" type="462c0819:PsiDirectoryNode" />
-              <item name="factory_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="encapsulation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blank" type="462c0819:PsiDirectoryNode" />
-              <item name="factory_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="extends_and_polymorphism" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -158,7 +160,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556012174238" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556012468939" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -250,15 +253,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556003721528</updated>
-      <workItem from="1556003723523" duration="7284000" />
+      <workItem from="1556003723523" duration="7581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7284000" />
+    <option name="totallyTimeSpent" value="7581000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -266,9 +270,9 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32931727" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" />
@@ -394,10 +398,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="506">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1334">
+            <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="46">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
