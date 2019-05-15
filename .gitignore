@@ -7,3 +7,6 @@
 *.iml
 out
 gen
+.gitignore
+src/main/resources/
+target/generated-sources/
