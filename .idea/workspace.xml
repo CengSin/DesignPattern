@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93625ca2-3062-4257-9539-66212f2178bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/scene1/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/scene1/impl/InvestAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/scene1/impl/Portfolio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/scene1/impl/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/CommonInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/images/common_interface.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/images/代理模式UML.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/impl/Broker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/impl/Star.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/calculator1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/calculator1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/calculator2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/calculator2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/oop/encapsulation/CalculatorOop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/oop/encapsulation/CalculatorOop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/oop/encapsulation/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/oop/encapsulation/Operator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/strategy_pattern/implementation/CashContext$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/strategy_pattern/implementation/CashContext$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/strategy_pattern/implementation/CashContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/strategy_pattern/implementation/CashContext.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,67 +36,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/README.md">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="468">
-                <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <first_editor relative-caret-position="608">
+                <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/scene1/Model.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/scene1/impl/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-              <folding>
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/scene1/impl/InvestAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-              <folding>
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/scene1/impl/Portfolio.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/impl/Star.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="322">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/CommonInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -144,6 +125,11 @@
         <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/scene1/impl/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/scene1/impl/InvestAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/scene1/impl/Portfolio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/CommonInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/impl/Star.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/impl/Broker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/README.md" />
       </list>
     </option>
   </component>
@@ -169,8 +155,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="1302" />
-    <option name="height" value="1452" />
+    <option name="width" value="1303" />
+    <option name="height" value="1453" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -218,7 +204,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="blank" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy_pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
@@ -227,49 +213,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="blank" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blank" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="scene1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
-              <item name="scene1" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,7 +230,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556012468939" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/decorator/scene1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -288,6 +240,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workSpace\design_pattern\src\main\java\org\apache\myfaces\blank\proxy_pattern\images" />
       <recent name="D:\workspace\design_pattern\src\main\resources\decorator\scene1" />
     </key>
   </component>
@@ -303,65 +256,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.apache.myfaces.blank.factory_pattern.oop.extends_and_polymorphism.Calculator" />
-      <module name="my_design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.apache.myfaces.blank.factory_pattern.oop.extends_and_polymorphism.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorOop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.apache.myfaces.blank.factory_pattern.oop.encapsulation.CalculatorOop" />
-      <module name="my_design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.apache.myfaces.blank.factory_pattern.oop.encapsulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.apache.myfaces.blank.strategy_pattern.implementation.Main" />
-      <module name="notcallme" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.apache.myfaces.blank.strategy_pattern.implementation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.apache.myfaces.blank.decorator_pattern.base.Main" />
-      <module name="notcallme" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.apache.myfaces.blank.decorator_pattern.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.apache.myfaces.blank.strategy_pattern.simple_implementation.Main" />
-      <module name="notcallme" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.myfaces.blank.proxy_pattern.Main" />
+      <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.apache.myfaces.blank.strategy_pattern.simple_implementation.*" />
+          <option name="PATTERN" value="org.apache.myfaces.blank.proxy_pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,11 +272,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.CalculatorOop" />
       </list>
     </recent_temporary>
   </component>
@@ -397,6 +294,7 @@
       <workItem from="1557290031623" duration="598000" />
       <workItem from="1558326740300" duration="1270000" />
       <workItem from="1559189903218" duration="2095000" />
+      <workItem from="1560663518671" duration="3966000" />
     </task>
     <task id="LOCAL-00001" summary="add strategy">
       <created>1556598878493</created>
@@ -409,13 +307,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19174000" />
+    <option name="totallyTimeSpent" value="23140000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="733" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29867083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2981771" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -425,12 +323,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32852563" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.328125" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3984375" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.525641" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.52473956" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32890365" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32890365" />
@@ -566,16 +464,6 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-528" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="814">
-            <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
-          </first_editor>
-          <second_editor />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/strategy_pattern/simple_implementation/Strategy.java">
@@ -758,61 +646,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/decorator/scene1/model_interface.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="468">
-            <caret line="26" selection-start-line="26" selection-end-line="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/scene1/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/decorator/scene1/model_interface.png" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/scene1/impl/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="368">
           <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
             <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/scene1/impl/InvestAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="368">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
             <element signature="e#419#420#0" expanded="true" />
             <element signature="e#465#466#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/scene1/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/scene1/impl/Portfolio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        <state relative-caret-position="138">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding>
             <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
             <element signature="e#411#412#0" expanded="true" />
             <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/decorator_pattern/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="598">
+            <caret line="26" selection-start-line="26" selection-end-line="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="668">
+            <caret line="58" column="51" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="145" column="13" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
+          <folding>
+            <element signature="e#4026#4027#0" expanded="true" />
+            <element signature="e#4084#4085#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/impl/Broker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/CommonInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="608">
+            <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/impl/Star.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
           </folding>
         </state>
       </provider>
