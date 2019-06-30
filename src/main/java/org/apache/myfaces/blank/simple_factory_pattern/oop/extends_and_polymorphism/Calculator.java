@@ -1,8 +1,8 @@
-package org.apache.myfaces.blank.factory_pattern.oop.encapsulation;
+package org.apache.myfaces.blank.simple_factory_pattern.oop.extends_and_polymorphism;
 
 import java.util.Scanner;
 
-public class CalculatorOop {
+public class Calculator {
 
     public static void main(String[] args) {
         try {
@@ -13,8 +13,10 @@ public class CalculatorOop {
             String operation = in.nextLine();
             System.out.println("请输入数字B：");
             String bStrNumber = in.nextLine();
-            double result = Operator.getResult(Double.valueOf(aStrNumber), Double.valueOf(bStrNumber), operation);
-            System.out.println(result);
+            Operator operator = OperatorFactory.createOperator(operation);
+            operator.setA(Double.valueOf(aStrNumber));
+            operator.setB(Double.valueOf(bStrNumber));
+            System.out.println(operator.getResult());
         } catch (Exception e) {
             e.printStackTrace();
         }

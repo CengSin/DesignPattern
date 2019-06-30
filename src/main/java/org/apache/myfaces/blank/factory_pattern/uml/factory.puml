@@ -1,0 +1,22 @@
+@startuml
+
+interface Product
+
+class ConcreteProduct {
+    - String name
+    # Object operator()
+}
+
+Product <|-- ConcreteProduct
+
+interface Factory
+
+class ConcreteFactory {
+    # Product createProduct()
+}
+
+Factory <|-- ConcreteFactory
+
+ConcreteProduct <.. ConcreteFactory
+
+@enduml

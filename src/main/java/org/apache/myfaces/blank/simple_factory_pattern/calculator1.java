@@ -1,4 +1,4 @@
-package org.apache.myfaces.blank.factory_pattern;
+package org.apache.myfaces.blank.simple_factory_pattern;
 
 import java.util.Scanner;
 

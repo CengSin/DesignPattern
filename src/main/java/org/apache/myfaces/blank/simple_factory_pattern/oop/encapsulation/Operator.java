@@ -1,4 +1,4 @@
-package org.apache.myfaces.blank.factory_pattern.oop.encapsulation;
+package org.apache.myfaces.blank.simple_factory_pattern.oop.encapsulation;
 
 /**
  * 封装业务，降低耦合度，使得代码更容易维护和拓展

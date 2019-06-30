@@ -1,0 +1,48 @@
+@startuml
+
+'操作接口`
+
+class OperatorFactory {
+   - Operator ope
+   + Operator createOperator(String operator)
+}
+
+Operator <.. OperatorFactory
+
+
+abstract class Operator
+
+class Operator {
+    - double a
+    - double b
+    - String operator
+    + double getResult()
+}
+
+Operator <|-- OperatorAdd
+
+class OperatorAdd {
+    + double getResult()
+}
+
+Operator <|-- OperatorSub
+
+class OperatorSub {
+    + double getResult()
+}
+
+Operator <|-- OperatorMul
+
+class OperatorMul {
+    + double getResult()
+}
+
+Operator <|-- OperatorDiv
+
+class OperatorDiv {
+    + double getResult()
+}
+
+
+
+@enduml

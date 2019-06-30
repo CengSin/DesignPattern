@@ -2,25 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93625ca2-3062-4257-9539-66212f2178bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/CommonInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/images/common_interface.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/images/代理模式UML.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/impl/Broker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/impl/Star.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/factory/OperatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/factory/impl/AddOperatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/product/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/product/impl/OperatorAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/uml/concreate_factory_uml.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/uml/example_uml.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/uml/factory.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/uml/simple_factory.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/calculator1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/calculator1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/calculator2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/calculator2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/oop/encapsulation/CalculatorOop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/oop/encapsulation/CalculatorOop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/oop/encapsulation/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/oop/encapsulation/Operator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/strategy_pattern/implementation/CashContext$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/strategy_pattern/implementation/CashContext$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/strategy_pattern/implementation/CashContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/myfaces/blank/strategy_pattern/implementation/CashContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/calculator1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/calculator1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/calculator2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/calculator2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/encapsulation/CalculatorOop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/encapsulation/CalculatorOop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/encapsulation/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/encapsulation/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/extends_and_polymorphism/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/extends_and_polymorphism/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/extends_and_polymorphism/OperatorAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorDiv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/extends_and_polymorphism/OperatorDiv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/extends_and_polymorphism/OperatorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorMul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/extends_and_polymorphism/OperatorMul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorSub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/extends_and_polymorphism/OperatorSub.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,35 +41,68 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="608">
-                <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/impl/Star.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/product/Operator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="606">
+              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
               <folding>
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/CommonInterface.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/product/impl/OperatorAdd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="168">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding>
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/factory/OperatorFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/factory/impl/AddOperatorFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,6 +114,8 @@
       <list>
         <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="UML Class" />
+        <option value="UML Sequence" />
         <option value="Class" />
       </list>
     </option>
@@ -86,18 +126,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/calculator2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/Operator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/CalculatorOop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/Operator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorAdd.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorSub.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorMul.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorDiv.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/calculator1.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/encapsulation/Operator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/strategy_pattern/simple_implementation/Strategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/strategy_pattern/simple_implementation/StrategyA.java" />
@@ -130,6 +164,19 @@
         <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/impl/Broker.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/HelloWorldController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/extends_and_polymorphism/Operator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/uml/simple_factory_pattern.puml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/extends_and_polymorphism/OperatorFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/uml/simple_factory.puml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/uml/factory.puml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/uml/concreate_factory_uml.puml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/product/impl/OperatorAdd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/factory/OperatorFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/factory/impl/AddOperatorFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/product/Operator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/Main.java" />
       </list>
     </option>
   </component>
@@ -155,8 +202,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="1303" />
-    <option name="height" value="1453" />
+    <option name="width" value="1305" />
+    <option name="height" value="1455" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -164,6 +211,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,39 +252,50 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="blank" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="factory_pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blank" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="uml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="uml" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design_pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="uml" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556012468939" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/uml/factory" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -256,7 +315,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.myfaces.blank.factory_pattern.Main" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.myfaces.blank.factory_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.apache.myfaces.blank.proxy_pattern.Main" />
       <module name="design_pattern" />
@@ -272,6 +344,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -295,6 +368,12 @@
       <workItem from="1558326740300" duration="1270000" />
       <workItem from="1559189903218" duration="2095000" />
       <workItem from="1560663518671" duration="3966000" />
+      <workItem from="1561859684943" duration="592000" />
+      <workItem from="1561860296486" duration="951000" />
+      <workItem from="1561861267579" duration="347000" />
+      <workItem from="1561861632473" duration="104000" />
+      <workItem from="1561861759684" duration="612000" />
+      <workItem from="1561862383256" duration="6033000" />
     </task>
     <task id="LOCAL-00001" summary="add strategy">
       <created>1556598878493</created>
@@ -307,7 +386,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23140000" />
+    <option name="totallyTimeSpent" value="31779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -330,7 +409,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.52473956" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32890365" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.328125" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32890365" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -347,6 +426,7 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="PlantUML" order="10" weight="0.5045573" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,190 +437,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add strategy" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/HelloWorldController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorSub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorDiv.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/calculator2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/calculator1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="34" lean-forward="true" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/encapsulation/Operator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/encapsulation/CalculatorOop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" lean-forward="true" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/Operator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorAdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorMul.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/OperatorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="44">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/strategy_pattern/simple_implementation/Strategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/strategy_pattern/simple_implementation/StrategyA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/strategy_pattern/simple_implementation/StrategyB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/strategy_pattern/simple_implementation/StrategyC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/strategy_pattern/simple_implementation/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/strategy_pattern/simple_implementation/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/strategy_pattern/implementation/CashRebate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/strategy_pattern/implementation/CashReturn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -563,13 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/oop/extends_and_polymorphism/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="18" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -701,7 +590,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="668">
@@ -718,17 +607,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="145" column="13" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
-          <folding>
-            <element signature="e#4026#4027#0" expanded="true" />
-            <element signature="e#4084#4085#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Optional.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/impl/Broker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -741,30 +620,259 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/CommonInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="608">
+          <first_editor relative-caret-position="952">
             <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/CommonInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3608" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/proxy_pattern/impl/Star.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="392">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="e#230#231#0" expanded="true" />
             <element signature="e#268#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/HelloWorldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/calculator1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/calculator2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.apache.myfaces.blank.simple_factory_pattern.oop.extends_and_polymorphism.Operator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.apache.myfaces.blank.simple_factory_pattern.oop.extends_and_polymorphism.Operator</OriginalElement>
+          <nodes>
+            <node x="" y="">org.apache.myfaces.blank.simple_factory_pattern.oop.extends_and_polymorphism.Operator</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="61.0" y="19.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/extends_and_polymorphism/OperatorSub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/extends_and_polymorphism/OperatorMul.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/extends_and_polymorphism/OperatorAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/extends_and_polymorphism/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.apache.myfaces.blank.simple_factory_pattern.oop.extends_and_polymorphism.OperatorFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.apache.myfaces.blank.simple_factory_pattern.oop.extends_and_polymorphism.OperatorFactory</OriginalElement>
+          <nodes>
+            <node x="" y="">org.apache.myfaces.blank.simple_factory_pattern.oop.extends_and_polymorphism.OperatorFactory</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-134.0" y="19.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/extends_and_polymorphism/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/encapsulation/CalculatorOop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/encapsulation/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/extends_and_polymorphism/OperatorDiv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/uml/simple_factory_pattern.puml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="661">
+            <caret line="28" selection-start-line="28" selection-end-line="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/uml/concreate_factory_uml.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/uml/factory.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/uml/example_uml.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/uml/simple_factory.puml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/simple_factory_pattern/oop/extends_and_polymorphism/OperatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/product/impl/OperatorAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/factory/impl/AddOperatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/factory/OperatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/product/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/myfaces/blank/factory_pattern/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

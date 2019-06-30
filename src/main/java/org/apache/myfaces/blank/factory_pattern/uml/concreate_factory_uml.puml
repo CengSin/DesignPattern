@@ -1,0 +1,64 @@
+@startuml
+Operator <.. OperatorFactory
+
+interface OperatorFactory {
+    + operator getoperator()
+}
+
+abstract class Operator {
+    - double a
+    - double b
+    - String operator
+    + Double getResult()
+}
+
+Operator <|-- OperatorAdd
+Operator <|-- OperatorSub
+Operator <|-- OperatorMul
+Operator <|-- OperatorDiv
+
+class OperatorAdd {
+    + Double getResult()
+}
+
+class OperatorSub {
+    + Double getResult()
+}
+
+class OperatorMul {
+    + Double getResult()
+}
+
+class OperatorDiv {
+    + Double getResult()
+}
+
+OperatorFactory <|-- AddOperatorFactory
+OperatorFactory <|-- SubOperatorFactory
+OperatorFactory <|-- MulOperatorFactory
+OperatorFactory <|-- DivOperatorFactory
+
+class AddOperatorFactory {
+    + Operator getOperator()
+}
+
+OperatorAdd <.. AddOperatorFactory
+
+class SubOperatorFactory {
+    + Operator getOperator()
+}
+
+OperatorSub <.. SubOperatorFactory
+
+class MulOperatorFactory {
+    + Operator getOperator()
+}
+
+OperatorMul <.. MulOperatorFactory
+
+class DivOperatorFactory {
+    + Operator getOperator()
+}
+OperatorDiv <.. DivOperatorFactory
+
+@enduml
