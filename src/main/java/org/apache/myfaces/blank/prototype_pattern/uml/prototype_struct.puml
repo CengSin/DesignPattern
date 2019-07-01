@@ -1,0 +1,22 @@
+@startuml
+
+class Client {
+}
+
+Prototype <-- Client
+
+class Prototype {
+    + clone()
+}
+
+class ConcretePrototy1 {
+}
+
+ConcretePrototy1 <|-- Prototype
+
+class ConcretePrototy2 {
+}
+
+ConcretePrototy2 <|-- Prototype
+
+@enduml
