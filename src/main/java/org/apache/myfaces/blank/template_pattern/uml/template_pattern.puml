@@ -1,0 +1,24 @@
+@startuml
+
+AbstractClass <|-- ConcreteClass1
+
+AbstractClass <|-- ConcreteClass2
+
+class AbstractClass {
+    - abstract void primitiveOperator1();
+    - abstract void primitiveOperator2();
+    - void concreteOperator();
+    + void templateMethod();
+}
+
+class ConcreteClass1 {
+    - void primitiveOperator1();
+    - void primitiveOperator2();
+}
+
+class ConcreteClass2 {
+    - void primitiveOperator1();
+    - void primitiveOperator2();
+}
+
+@enduml
