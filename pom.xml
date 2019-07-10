@@ -11,6 +11,10 @@
     <name>A custom project using myfaces</name>
     <url>http://www.myorganization.org</url>
 
+    <modules>
+        <module>src/main/java/org/apache/myfaces/blank/builder_pattern/tree</module>
+    </modules>
+
     <build>
         <finalName>notcallme</finalName>
         <plugins>
