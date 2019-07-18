@@ -1,0 +1,15 @@
+@startuml
+
+class NewSystem {
+
+}
+
+NewSystem --> Facade : "调用"
+
+Facade --> OldSystem1 : "封装"
+
+Facade --> OldSystem2 : "封装"
+
+Facade --> OldSystem3 : "封装"
+
+@enduml
