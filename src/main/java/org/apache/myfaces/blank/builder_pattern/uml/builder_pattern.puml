@@ -1,0 +1,48 @@
+@startuml
+
+together {
+    class Person {
+        - name
+        - age
+        -height
+    }
+
+    abstract class PersonBuilder {
+        - name
+        - age
+        -height
+        + abstract void name(String name)
+        + abstract void age(int age)
+        + abstract void height(double height)
+        + Person build()
+    }
+}
+
+together {
+
+    class ManBuilder {
+        + void name(String name)
+        + void age(int age)
+        + void height(double height)
+    }
+
+    class WoManBuilder {
+        + void name(String name)
+        + void age(int age)
+        + void height(double height)
+    }
+
+}
+
+class Main {
+    + static void main(String[] args)
+}
+
+Main <- PersonBuilder : 使用
+
+ManBuilder -|> PersonBuilder : implements
+WoManBuilder -|> PersonBuilder : implements
+
+PersonBuilder *-- Person
+
+@enduml
