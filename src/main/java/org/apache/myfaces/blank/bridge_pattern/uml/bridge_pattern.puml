@@ -1,0 +1,41 @@
+@startuml
+
+abstract class Abstraction {
+
+    # pImp : Implementor
+
+    + getPImp()
+    + setPImp()
+
+    + Abstraction(Implementor pImp)
+
+}
+
+interface Implementor {
+
+    + operImplementor()
+
+}
+
+class RefineAbstraction {
+
+    + RefineAbstraction(Implementor pImp)
+
+}
+
+class ConcreteImplementor {
+    + operImplementor()
+}
+
+class client {
+}
+
+client --> Abstraction
+
+Abstraction <--o Implementor
+
+Implementor <|.. ConcreteImplementor
+
+Abstraction <|-- RefineAbstraction
+
+@enduml
