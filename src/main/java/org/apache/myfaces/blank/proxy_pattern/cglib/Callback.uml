@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>net.sf.cglib.proxy.Callback</OriginalElement>
+  <nodes>
+    <node x="0.0" y="1482.0">net.sf.cglib.proxy.Dispatcher</node>
+    <node x="398.0" y="1367.0">net.sf.cglib.proxy.Callback</node>
+    <node x="1303.0" y="1367.0">net.sf.cglib.proxy.CallbackFilter</node>
+    <node x="650.0" y="1482.0">net.sf.cglib.proxy.MethodInterceptor</node>
+    <node x="286.0" y="1482.0">net.sf.cglib.proxy.LazyLoader</node>
+    <node x="182.0" y="1483.0">net.sf.cglib.proxy.NoOp</node>
+    <node x="0.0" y="0.0">net.sf.cglib.proxy.Enhancer</node>
+    <node x="468.0" y="1482.0">net.sf.cglib.proxy.FixedValue</node>
+    <node x="1048.0" y="1482.0">net.sf.cglib.proxy.ProxyRefDispatcher</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="net.sf.cglib.proxy.MethodInterceptor" target="net.sf.cglib.proxy.Callback">
+      <point x="0.0" y="-28.5" />
+      <point x="839.0" y="1452.0" />
+      <point x="488.0" y="1452.0" />
+      <point x="30.0" y="27.5" />
+    </edge>
+    <edge source="net.sf.cglib.proxy.LazyLoader" target="net.sf.cglib.proxy.Callback">
+      <point x="0.0" y="-28.5" />
+      <point x="367.0" y="1462.0" />
+      <point x="448.0" y="1462.0" />
+      <point x="-10.0" y="27.5" />
+    </edge>
+    <edge source="net.sf.cglib.proxy.FixedValue" target="net.sf.cglib.proxy.Callback">
+      <point x="0.0" y="-28.5" />
+      <point x="549.0" y="1462.0" />
+      <point x="468.0" y="1462.0" />
+      <point x="10.0" y="27.5" />
+    </edge>
+    <edge source="net.sf.cglib.proxy.NoOp" target="net.sf.cglib.proxy.Callback">
+      <point x="0.0" y="-27.5" />
+      <point x="224.0" y="1452.0" />
+      <point x="428.0" y="1452.0" />
+      <point x="-30.0" y="27.5" />
+    </edge>
+    <edge source="net.sf.cglib.proxy.Dispatcher" target="net.sf.cglib.proxy.Callback">
+      <point x="0.0" y="-28.5" />
+      <point x="81.0" y="1442.0" />
+      <point x="408.0" y="1442.0" />
+      <point x="-50.0" y="27.5" />
+    </edge>
+    <edge source="net.sf.cglib.proxy.ProxyRefDispatcher" target="net.sf.cglib.proxy.Callback">
+      <point x="0.0" y="-28.5" />
+      <point x="1153.0" y="1442.0" />
+      <point x="508.0" y="1442.0" />
+      <point x="50.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7152815013404824" x="877.4544427132838" y="835.772778643358" />
+  <SelectedNodes>
+    <node>net.sf.cglib.proxy.MethodInterceptor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
