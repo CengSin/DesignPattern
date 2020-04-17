@@ -53,6 +53,11 @@
                     <scope>compile</scope>
                 </dependency>
                 <dependency>
+                    <groupId>cglib</groupId>
+                    <artifactId>cglib</artifactId>
+                    <version>3.2.12</version>
+                </dependency>
+                <dependency>
                     <groupId>tomcat</groupId>
                     <artifactId>jasper-compiler</artifactId>
                     <version>5.5.9</version>
@@ -110,7 +115,12 @@
             <version>1.2.2</version>
             <scope>compile</scope>
         </dependency>
-        
+        <!-- https://mvnrepository.com/artifact/cglib/cglib -->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.2.12</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.myfaces.core</groupId>
             <artifactId>myfaces-impl</artifactId>
